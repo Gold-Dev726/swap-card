@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box !important;
+  font-weight: 600 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+button:focus {
+  /*outline: 1px dotted;*/
+  /*outline: 5px auto -webkit-focus-ring-color;*/
+  outline: none !important;
+}
+
+.text-tennis {
+  color: #d6f732;
+}
+
+.bg-warning {
+  background-color: #f36903;
+}
+
+.border-1 {
+ border-width: 1px;
+}
+
+.hover\:border-4:hover {
+  border-width: 4px
+}
+
+.text-xxs {
+  font-size: 10px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
